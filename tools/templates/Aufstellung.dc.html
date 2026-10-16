@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Aufstellung 18.10. – 1. Mannschaft</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@500;600;700&family=Barlow:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0B0B10}
+a{color:#fff}a:hover{color:#ffd5d5}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #0B0B10; color: #FFFFFF; font-family: 'Barlow', sans-serif; box-sizing: border-box">
+
+  <!-- Hintergrund: Rasen-Streifen + rote Diagonalfläche -->
+  <div style="position: absolute; inset: 0; background: #0B0B10"></div>
+  <!-- Spielfeld-Motiv -->
+  <svg aria-hidden="true" width="1080" height="1400" viewBox="0 0 1080 1400" style="position: absolute; left: 0; top: 0; opacity: 0.22" fill="none" stroke="#FFFFFF" stroke-width="4">
+    <rect x="60" y="-40" width="960" height="1400"></rect>
+    <rect x="245" y="-40" width="590" height="260"></rect>
+    <rect x="395" y="-40" width="290" height="100"></rect>
+    <path d="M395 220 A160 160 0 0 0 685 220"></path>
+    <line x1="60" y1="740" x2="1020" y2="740"></line>
+    <circle cx="540" cy="740" r="150"></circle>
+    <circle cx="540" cy="740" r="6" fill="#FFFFFF" stroke="none"></circle>
+    <circle cx="540" cy="160" r="6" fill="#FFFFFF" stroke="none"></circle>
+  </svg>
+  <div style="position: absolute; left: 0; top: 0; width: 1080px; height: 1400px; background: radial-gradient(ellipse 70% 55% at 50% 48%, rgba(240,20,30,0.42) 0%, rgba(240,20,30,0.12) 50%, rgba(11,11,16,0) 100%)"></div>
+  <div style="position: absolute; left: 0; top: 0; width: 1080px; height: 1400px; background: linear-gradient(180deg, rgba(11,11,16,0.55) 0%, rgba(11,11,16,0) 28%, rgba(11,11,16,0) 75%, rgba(11,11,16,0.6) 100%)"></div>
+  <div style="position: absolute; left: -200px; top: 1160px; width: 1500px; height: 1100px; background: {{accent}}; transform: rotate(-8deg); transform-origin: left top"></div>
+  <div style="position: absolute; left: -200px; top: 1130px; width: 1500px; height: 18px; background: #FFFFFF; transform: rotate(-8deg); transform-origin: left top"></div>
+  <!-- grosse Kreise als Logo-Zitat -->
+
+  <div aria-hidden="true" style="position: absolute; right: 30px; top: 1080px; font-family: 'Bebas Neue', sans-serif; font-size: 440px; line-height: 0.8; color: #FFFFFF; opacity: 0.08; letter-spacing: 0.02em">{{numeral}}</div>
+  <!-- Kopf -->
+  <div style="position: absolute; left: 0; right: 0; top: 250px; display: flex; flex-direction: column; align-items: center; gap: 14px">
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 60px; height: 3px; background: {{accent}}"></div>
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 34px; letter-spacing: 0.32em; text-transform: uppercase; color: #FFFFFF">{{league}}</div>
+      <div style="width: 60px; height: 3px; background: {{accent}}"></div>
+    </div>
+    <div style="font-family: 'Bebas Neue', sans-serif; font-size: 210px; line-height: 0.86; letter-spacing: 0.04em; color: {{accent}}; text-shadow: 0 18px 60px rgba(0,0,0,0.6)">SPIELTAG</div>
+    <div style="display: flex; align-items: center; gap: 20px; margin-top: 2px">
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: 0.22em; text-transform: uppercase; color: {{accent}}; background: #FFFFFF; padding: 8px 22px 6px 26px; border-radius: 999px">{{team}}</div>
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 500; font-size: 34px; letter-spacing: 0.4em; text-transform: uppercase; color: #FFFFFF; opacity: 0.9">{{subline}}</div>
+    </div>
+  </div>
+
+  <!-- Paarung -->
+  <div style="position: absolute; left: 60px; right: 60px; top: 590px; display: grid; grid-template-columns: 1fr 160px 1fr; align-items: start">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 16px">
+      <div style="width: 300px; height: 300px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 20px 50px rgba(0,0,0,0.35)">
+        <img src="/_blob/67e41d99804ea8781c08ab74a7d6b71f" alt="FSV 03 Osthofen" style="width: 300px; height: 300px; object-fit: contain">
+      </div>
+      <div style="height: 80px; display: flex; align-items: center; justify-content: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: 0.03em; text-transform: uppercase; text-align: center; color: #FFFFFF; padding: 0 8px">{{home}}</div>
+    </div>
+    <div style="height: 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px">
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: 0.2em; color: #FFFFFF; white-space: nowrap">{{kickoff}}</div>
+      <div style="font-family: 'Bebas Neue', sans-serif; font-size: 130px; line-height: 0.9; color: #FFFFFF; text-shadow: 0 10px 30px rgba(0,0,0,0.45)">VS</div>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 16px">
+      <div style="width: 300px; height: 300px; background: #FFFFFF; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 20px 50px rgba(0,0,0,0.35)">
+        <img src="/_blob/c6b7ec256780292d023f239a31bb6516" alt="TuS Wörrstadt" style="width: 230px; height: 230px; object-fit: contain">
+      </div>
+      <div style="height: 80px; display: flex; align-items: center; justify-content: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: 0.03em; text-transform: uppercase; text-align: center; color: #FFFFFF; padding: 0 8px">{{away}}</div>
+    </div>
+  </div>
+
+  <!-- Aufstellung -->
+  <div style="position: absolute; left: 60px; right: 60px; top: 1152px; height: 440px; display: flex; gap: 18px">
+    <div style="flex: 1; background: rgba(11,11,16,0.28); border-radius: 22px; padding: 14px 16px 16px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
+      <div style="text-align: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; letter-spacing: 0.22em; text-transform: uppercase; color: #FFFFFF; line-height: 1">{{title1}}</div>
+      <div style="display: flex; flex-direction: column; gap: 3px">
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s1n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s1}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s2n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s2}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s3n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s3}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s4n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s4}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s5n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s5}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s6n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s6}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s7n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s7}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s8n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s8}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s9n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s9}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s10n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s10}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{s11n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{s11}}</div>
+        </div>
+      </div>
+    </div>
+    <div style="flex: 1; background: rgba(11,11,16,0.28); border-radius: 22px; padding: 14px 16px 16px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px">
+      <div style="text-align: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; letter-spacing: 0.22em; text-transform: uppercase; color: #FFFFFF; line-height: 1">{{title2}}</div>
+      <!-- BANK-START --><div style="display: flex; flex-direction: column; gap: 3px">
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{b1n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{b1}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{b2n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{b2}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{b3n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{b3}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{b4n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{b4}}</div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; height: 32px">
+          <div style="width: 54px; height: 30px; border-radius: 8px; background: #FFFFFF; color: {{accent}}; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 22px; display: flex; align-items: center; justify-content: center">{{b5n}}</div>
+          <div style="flex: 1; height: 30px; border-radius: 8px; background: rgba(0,0,0,0.22); color: #FFFFFF; font-family: 'Barlow', sans-serif; font-weight: 500; font-size: 23px; line-height: 30px; padding: 0 12px; white-space: nowrap; overflow: hidden">{{b5}}</div>
+        </div>
+      <!-- BANK-END --></div>
+    </div>
+  </div>
+
+  <!-- Hauptsponsoren -->
+  <div style="position: absolute; left: 60px; right: 60px; bottom: 120px; display: flex; flex-direction: column; align-items: center; gap: 22px">
+    <div style="display: flex; align-items: center; gap: 18px; width: 100%; justify-content: center">
+      <div style="flex: 1; max-width: 140px; height: 2px; background: rgba(255,255,255,0.7)"></div>
+      <div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 28px; letter-spacing: 0.3em; text-transform: uppercase; color: #FFFFFF; white-space: nowrap">{{sponsorlabel}}</div>
+      <div style="flex: 1; max-width: 140px; height: 2px; background: rgba(255,255,255,0.7)"></div>
+    </div>
+    <div style="display: flex; gap: 18px; width: 100%">
+      <div style="flex: 1; height: 135px; padding: 6px; box-sizing: border-box; background: #FFFFFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25)">
+        <img src="/_blob/9c4793158db0f868ad78f2183aae0cd9" alt="MBL Bahnsicherung GmbH" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block">
+      </div>
+      <div style="flex: 1; height: 135px; padding: 6px; box-sizing: border-box; background: #FFFFFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25)">
+        <img src="/_blob/9284c71dcef85035b2a56c43a5031d03" alt="Rheinhessen Bau" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block">
+      </div>
+      <div style="flex: 1; height: 135px; padding: 6px; box-sizing: border-box; background: #FFFFFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.25)">
+        <img src="/_blob/74f586ada2ca2cb8d6f365df03a0aa6d" alt="Dogan Grillhaus & Pizzeria" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block">
+      </div>
+    </div>
+  </div>
+  <div style="position: absolute; left: 0; right: 0; top: 1108px; text-align: center; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 26px; letter-spacing: 0.3em; text-transform: uppercase; color: #FFFFFF">www.fsv-osthofen.de</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent": {"editor": "color", "default": "#F0141E"}, "league": {"editor": "text", "default": "A-Klasse Alzey-Worms"}, "team": {"editor": "text", "default": "1. Mannschaft"}, "numeral": {"editor": "text", "default": "I"}, "subline":{"editor":"text","default":"Heimspiel"}, "kickoff": {"editor": "text", "default": "So. 15:30"}, "home": {"editor": "text", "default": "FSV 03 Osthofen"}, "away": {"editor": "text", "default": "TuS Wörrstadt"}, "sponsorlabel": {"editor": "text", "default": "Unsere Hauptsponsoren"}, "title1": {"editor": "text", "default": "Startelf"}, "title2": {"editor": "text", "default": "Ersatzbank"}, "s1n": {"editor": "text", "default": "1"}, "s1": {"editor": "text", "default": "Pavlak, Denis (TW)"}, "s2n": {"editor": "text", "default": "2"}, "s2": {"editor": "text", "default": "Kocak, Bünyamin"}, "s3n": {"editor": "text", "default": "3"}, "s3": {"editor": "text", "default": "Solenok, Alexej"}, "s4n": {"editor": "text", "default": "4"}, "s4": {"editor": "text", "default": "Erbeldinger, Luca Michael"}, "s5n": {"editor": "text", "default": "6"}, "s5": {"editor": "text", "default": "Amankwah, Evans"}, "s6n": {"editor": "text", "default": "7"}, "s6": {"editor": "text", "default": "Ziberi, Albin"}, "s7n": {"editor": "text", "default": "8"}, "s7": {"editor": "text", "default": "Gerber, Markus"}, "s8n": {"editor": "text", "default": "11"}, "s8": {"editor": "text", "default": "Kröhler, Lenny Joel (C)"}, "s9n": {"editor": "text", "default": "12"}, "s9": {"editor": "text", "default": "Kunitskiy, Alexander"}, "s10n": {"editor": "text", "default": "17"}, "s10": {"editor": "text", "default": "Seibolt, David"}, "s11n": {"editor": "text", "default": "19"}, "s11": {"editor": "text", "default": "Weinheimer, Mike Andreas"}, "b1n": {"editor": "text", "default": "5"}, "b1": {"editor": "text", "default": "Kocak, Bilal"}, "b2n": {"editor": "text", "default": "14"}, "b2": {"editor": "text", "default": "Ölmez, Ahmet Taha"}, "b3n": {"editor": "text", "default": "15"}, "b3": {"editor": "text", "default": "Yücel, Ahmet Hamza"}, "b4n": {"editor": "text", "default": "16"}, "b4": {"editor": "text", "default": "Abdo, Samir"}, "b5n": {"editor": "text", "default": "20"}, "b5": {"editor": "text", "default": "Meslem, Abdelkader"}, "$preview": {"width": 1080, "height": 1920}}'>
+class Component extends DCLogic {
+renderVals() {
+const p = this.props;
+return {
+accent: p.accent ?? '#F0141E',
+league: p.league ?? 'A-Klasse Alzey-Worms',
+team: p.team ?? '1. Mannschaft',
+numeral: p.numeral ?? 'I',
+subline: p.subline ?? 'Heimspiel',
+kickoff: p.kickoff ?? 'So. 15:30',
+home: p.home ?? 'FSV 03 Osthofen',
+away: p.away ?? 'TuS Wörrstadt',
+sponsorlabel: p.sponsorlabel ?? 'Unsere Hauptsponsoren',
+title1: p.title1 ?? 'Startelf',
+title2: p.title2 ?? 'Ersatzbank',
+s1n: p.s1n ?? '1',
+s1: p.s1 ?? 'Pavlak, Denis (TW)',
+s2n: p.s2n ?? '2',
+s2: p.s2 ?? 'Kocak, Bünyamin',
+s3n: p.s3n ?? '3',
+s3: p.s3 ?? 'Solenok, Alexej',
+s4n: p.s4n ?? '4',
+s4: p.s4 ?? 'Erbeldinger, Luca Michael',
+s5n: p.s5n ?? '6',
+s5: p.s5 ?? 'Amankwah, Evans',
+s6n: p.s6n ?? '7',
+s6: p.s6 ?? 'Ziberi, Albin',
+s7n: p.s7n ?? '8',
+s7: p.s7 ?? 'Gerber, Markus',
+s8n: p.s8n ?? '11',
+s8: p.s8 ?? 'Kröhler, Lenny Joel (C)',
+s9n: p.s9n ?? '12',
+s9: p.s9 ?? 'Kunitskiy, Alexander',
+s10n: p.s10n ?? '17',
+s10: p.s10 ?? 'Seibolt, David',
+s11n: p.s11n ?? '19',
+s11: p.s11 ?? 'Weinheimer, Mike Andreas',
+b1n: p.b1n ?? '5',
+b1: p.b1 ?? 'Kocak, Bilal',
+b2n: p.b2n ?? '14',
+b2: p.b2 ?? 'Ölmez, Ahmet Taha',
+b3n: p.b3n ?? '15',
+b3: p.b3 ?? 'Yücel, Ahmet Hamza',
+b4n: p.b4n ?? '16',
+b4: p.b4 ?? 'Abdo, Samir',
+b5n: p.b5n ?? '20',
+b5: p.b5 ?? 'Meslem, Abdelkader'
+};
+}
+}
+</script>
+</body>
+</html>
