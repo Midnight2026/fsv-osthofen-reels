@@ -41,7 +41,7 @@ def load_text(path: str) -> str:
 def mk(m):
     name = re.sub(r"\s+", " ", m.group(2)).strip()
     hint = m.group(3) or ""
-    mh = re.match(r"^(.*?)\s+(TW|C)$", name)
+    mh = re.match(r"^(.*?)\s+(ETW|TW|C)$", name)
     if mh:
         name, hint = mh.group(1), mh.group(2)
     return {"nr": int(m.group(1)), "name": name, "hint": hint}
