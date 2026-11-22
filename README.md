@@ -42,4 +42,5 @@ NODE_PATH=$(npm root -g) python3 -I tools/build_aufstellung.py \
   SV Leiselheim `/_blob/56b4ee75a8525d9e21c59a1f753c012f`, TuS Offstein `/_blob/b612ace5a01ea5bd593e3f32cef4db78`,
   SG Weinheim/Heimersheim `/_blob/64c32a261efd3ebbb2c38617d2d68da8`,
   SG Spiesheim/Albig `/_blob/7d8bc2470853a82e13e6f3bce5b8315c`, SV Normannia Pfiffligheim `/_blob/beb93ca79d427f931efda7790552b87d`,
-  SG Armsheim/Flonheim (FuPa-Team-Bild, Slug tsv-armsheim-schimsheim) `/_blob/25a619f57d96d13bd6d90991358a2a96`
+  SG Armsheim/Flonheim (FuPa-Team-Bild, Slug tsv-armsheim-schimsheim) `/_blob/25a619f57d96d13bd6d90991358a2a96`,
+  TuS Stetten `/_blob/443d6ad3eff3c98cf93bc2f2955de896`
